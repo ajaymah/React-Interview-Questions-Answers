@@ -8,9 +8,9 @@ React is  created by Facebook.
 - **Component-Based Architecture**   
 - **Virtual DOM** - Virtual DOM instead of Real DOM considering that Real DOM manipulations are expensive.  
 - **JSX (JavaScript XML)** - JSX syntax, a syntax extension of JS that allows developers to write HTML in their JS code  
-- Unidirectional Data Flow - Follows Unidirectional or one-way data flow or data binding.  
-* Reusable Components - reusable/composable UI components to develop the view.  
-+ React Ecosystem  
-Server-Side Rendering (SSR) - Supports server-side rendering which is useful for Search Engine Optimizations(SEO).  
-Context API  
-Hooks  
+- **Unidirectional Data Flow** - Follows Unidirectional or one-way data flow or data binding. 
+- **Reusable Components** - reusable/composable UI components to develop the view.
+- **React Ecosystem**
+- **Server-Side Rendering (SSR)** - Supports server-side rendering which is useful for Search Engine Optimizations(SEO).  
+- **Context API**
+- **Hooks** 
