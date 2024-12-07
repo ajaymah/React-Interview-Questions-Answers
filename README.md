@@ -23,6 +23,8 @@ React is  created by Facebook.
 
 ## What is the Difference between Element and Component ?##
 An Element is an object that represents a DOM node it is a part of DOM structure, while a *component is a reusable block of code* that contains logic, states, and also returns the Element.
+> [!NOTE]
+> component is a reusable block of code that contains logic, states, and also returns the Element
 
 ## How to create components in React? ##
 Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component.
