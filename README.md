@@ -27,6 +27,8 @@ An Element is an object that represents a DOM node it is a part of DOM structure
 > component is a reusable block of code that contains logic, states, and also returns the Element
 
 ## How to create components in React? ##
-Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component.  
+Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component. 
+
 ***Function Components:*** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the one and only one parameter and return React elements to render the output:  
+
 ***Class Components:*** You can also use ES6 class to define a component. The above function component can be written as a class component:  
