@@ -53,9 +53,10 @@ web pages rendering on the server before sending them to the client’s browser.
 This process of rendering web pages on the server before sending them to the client’s browser that is called SSE
 Next js enable developers to build JavaScript code that runs on both the server and the client.
 
-**Advantages: -** Search engines can easily crawl and index the fully rendered HTML, that help for  better search rankings
+> [!NOTE]
+>**Advantages: -** Search engines can easily crawl and index the fully rendered HTML, that help for  better search rankings
 
-**When to use:** - Content-based websites, blogs, e-commerce platforms where SEO is a first priority.
+>**When to use:** - Content-based websites, blogs, e-commerce platforms where SEO is a first priority.
 
 ***Static Site Generation (SSG)***
 
