@@ -35,7 +35,11 @@ Components are the building blocks of creating User Interfaces(UI) in React. The
 
 ## 6-What is the Difference UI Rendring methode ?##
 ***Client-Side Rendering (CSR)***
+
 ***Server-Side Rendering (SSR)***
+
 ***Static Site Generation (SSG)***
+
 ***Universal Rendering(UR)***
+
 All are different approaches to rendering web content
