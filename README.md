@@ -40,7 +40,12 @@ Client-Side Rendering(**CSR**) is a technique, In which web pages are rendered o
 This method with CSR frameworks including Vue.js, React, and Angular. A simple HTML page is first loaded, and future content updates are fetched and rendered dynamically using API requests.
 
 >CSR provides a responsive and interactive user experience by allowing real-time updates
+
 >Frontend and backend developers to work independently
+
+**When to use CSR**
+-Building highly interactive applications that require real-time updates, such as social media platforms, dashboards.
+-Requiring a single-page application (SPA) architecture for a superb user experience without page reloads.
 
 ***Server-Side Rendering (SSR)***
 
