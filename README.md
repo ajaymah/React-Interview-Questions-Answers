@@ -43,7 +43,7 @@ This method with CSR frameworks including Vue.js, React, and Angular. A simple H
 
 >Frontend and backend developers to work independently
 
-**When to use CSR**
+*_When to use CSR*_
 -Building highly interactive applications that require real-time updates, such as social media platforms, dashboards.
 -Requiring a single-page application (SPA) architecture for a superb user experience without page reloads.
 
