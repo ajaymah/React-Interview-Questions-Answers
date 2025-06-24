@@ -61,6 +61,13 @@ Next js enable developers to build JavaScript code that runs on both the server 
 
 ***Static Site Generation (SSG)***
 
+Generating static HTML files for each page and  developers to create high-performance websites that can be served directly from a Content Delivery Network (CDN).
+
+**Advantages**  -- static HTML files can be cached and served directly, resulting in fast page rendering and reduced server load.
+**When to use** -- Building content-heavy websites, blogs, or documentation sites where content updates are infrequent.
+
 ***Universal Rendering(UR)***
+
+when the browser requests a URL with universal (server-side + client-side) rendering enabled, the server returns a fully rendered HTML page to the browser. Whether the page has been generated in advance and cached 
 
 All are different approaches to rendering web content
