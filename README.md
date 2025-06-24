@@ -55,6 +55,7 @@ Next js enable developers to build JavaScript code that runs on both the server 
 
 > [!NOTE]
 >**Advantages: -** Search engines can easily crawl and index the fully rendered HTML, that help for  better search rankings
+> 
 > **When to use:** - Content-based websites, blogs, e-commerce platforms where SEO is a first priority.
 
 ***Static Site Generation (SSG)***
