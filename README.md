@@ -39,6 +39,9 @@ Components are the building blocks of creating User Interfaces(UI) in React. The
 Client-Side Rendering(**CSR**) is a technique, In which web pages are rendered on the client’s browser by useing JavaScript to change the DOM element. 
 This method with CSR frameworks including Vue.js, React, and Angular. A simple HTML page is first loaded, and future content updates are fetched and rendered dynamically using API requests.
 
+>CSR provides a responsive and interactive user experience by allowing real-time updates
+>Frontend and backend developers to work independently
+
 ***Server-Side Rendering (SSR)***
 
 ***Static Site Generation (SSG)***
