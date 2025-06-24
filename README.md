@@ -71,3 +71,8 @@ Generating static HTML files for each page and  developers to create high-perfor
 when the browser requests a URL with universal (server-side + client-side) rendering enabled, the server returns a fully rendered HTML page to the browser. Whether the page has been generated in advance and cached 
 
 All are different approaches to rendering web content
+
+## Top 5 acid tests for your website! ##
+1 - Crawling - google search console
+2 - Indexing 
+3 - Ranking and Serving
