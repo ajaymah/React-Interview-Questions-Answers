@@ -48,14 +48,12 @@ This method with CSR frameworks including Vue.js, React, and Angular. A simple H
 -Requiring a single-page application (SPA) architecture for a superb user experience without page reloads.
 
 ***Server-Side Rendering (SSR)***
+
 web pages rendering on the server before sending them to the client’s browser.
-
 This process of rendering web pages on the server before sending them to the client’s browser that is called SSE
-
 Next js enable developers to build JavaScript code that runs on both the server and the client.
 
 **Advantages: -** Search engines can easily crawl and index the fully rendered HTML, that help for  better search rankings 
-
 **When to use:** - Content-based websites, blogs, e-commerce platforms where SEO is a first priority.
 
 ***Static Site Generation (SSG)***
