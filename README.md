@@ -32,3 +32,10 @@ Components are the building blocks of creating User Interfaces(UI) in React. The
 ***Function Components:*** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the one and only one parameter and return React elements to render the output:  
 
 ***Class Components:*** You can also use ES6 class to define a component. The above function component can be written as a class component:  
+
+## 6-What is the Difference UI Rendring methode ?##
+***Client-Side Rendering (CSR)***
+***Server-Side Rendering (SSR)***
+***Static Site Generation (SSG)***
+***Universal Rendering(UR)***
+All are different approaches to rendering web content
