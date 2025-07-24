@@ -72,11 +72,29 @@ when the browser requests a URL with universal (server-side + client-side) rende
 
 All are different approaches to rendering web content
 
-## Top 5 acid tests for your website! ##
+## 7- Top 5 acid tests for your website! ##
 1 - Crawling - google search console
 2 - Indexing 
 3 - Ranking and Serving
 
-## How browsers read JSX? ##
+## 8- How browsers read JSX? ##
 Browsers is not capable of reading JSX code, only can read JavaScript code.   
 The browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel.  
+
+## 9- What is higher-order component in React? ##
+Hoc is a function that takes a component and return a new component with enhanceed behaviour or additionl props  
+like it as a weaper component that add functionality to a component without modifying the original component  
+we can reusing the component functionality logic  
+** use case **
+   code reuse, Access controll, inject props or data
+> [!NOTE]
+> Dont modify the orignal code, always ppass props down
+
+## 10- What is Context API in React? ##  
+React context api is a way to share data across component without passing pross manually
+*** Example: ***
+
+
+
+
+
