@@ -85,14 +85,17 @@ The browsers read JSX with the help of a transpiler. Transpilers are used to con
 Hoc is a function that takes a component and return a new component with enhanceed behaviour or additionl props  
 like it as a weaper component that add functionality to a component without modifying the original component  
 we can reusing the component functionality logic  
-** use case **
+**use case**
    code reuse, Access controll, inject props or data
 > [!NOTE]
 > Dont modify the orignal code, always ppass props down
 
 ## 10- What is Context API in React? ##  
-React context api is a way to share data across component without passing pross manually
-*** Example: ***
+React context api is a way to share data across component without passing pross manually.  
+***Example:***
+```
+import  { createContext } from 'react';
+```
 
 
 
