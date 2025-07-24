@@ -94,7 +94,26 @@ we can reusing the component functionality logic
 React context api is a way to share data across component without passing pross manually.  
 ***Example:***
 ```
-import  { createContext } from 'react';
+import  { createContext } from 'react';  
+export const UserContext = createContext();
+  
+export cont UserProvider = ({children})=>{  
+   return (  
+      <UserContext.Provider value = {"Ajay"}>  
+        {children}  
+      </UserContext.provider>  
+    )  
+}
+///////////////////////////////////////
+
+import { UserProvider }  from 'UserContext'
+
+function App (){
+  return (
+    <Header/>
+    <Section/>
+  ) 
+}
 ```
 
 
