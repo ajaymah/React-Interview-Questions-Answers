@@ -76,3 +76,7 @@ All are different approaches to rendering web content
 1 - Crawling - google search console
 2 - Indexing 
 3 - Ranking and Serving
+
+## How browsers read JSX? ##
+Browsers is not capable of reading JSX code, only can read JavaScript code.   
+The browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel.  
