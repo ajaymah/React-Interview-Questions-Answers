@@ -114,6 +114,16 @@ function App (){
     <Section/>
   ) 
 }
+
+// consume //  
+
+import { useContext } from 'react';
+import { UserContext } from 'UserContext';
+
+const Header = ()=> {  
+    const  user = useContext(UserContext);  
+    <p>{user}</p>  
+}  
 ```
 
 
