@@ -128,6 +128,28 @@ const Header = ()=> {
 }  
 ```
 ### 11- What are Pure Components in React? ###  
+Pure Component is similar to React component, but it automatically implements ShouldComponentUpdate() with shallow props and state comparison.  
+> [!NOTE]  
+> when use -- component renderd the same output.  
+> Shallow compare  
+   Primitive types (number, string, boolean) compare by value  
+   object and array: compare by refrence, it triger a re-render
+
+### 12- What are hooks in React? ###
+Hooks are special function in React js **(v16.8+)** that let you use state and other React feature in functional component without writing a class component  
+**1- useState** - Add state to functional component  
+**2- useEffect** - perform side effects (this will work with lifcycle mount, updating and unmount)  
+**3- useContext** - we can set global state, aboide props drilling  
+**4- useRef** - get refrence to Dom or staore mutable value  
+**5- useMemo** - memoizes expensive calculation  
+**6-useCallback** - memoizes function to avoide re-creatingthem on every render  
+**7- useReducer** - complex state logic  
+> [!NOTE]
+> Rules  
+ **Call Hooks at top lavel** - not inside loop, conditions, or nested function
+> 
+
+
 
 
 
