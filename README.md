@@ -91,7 +91,9 @@ we can reusing the component functionality logic
 > Dont modify the orignal code, always ppass props down
 
 ## 10- What is Context API in React? ##  
-React context api is a way to share data across component without passing pross manually.  
+React context api is a way to share data across component without passing pross manually. 
+> [!NOTE]
+> when it use -- Avoiding props drilling  
 ***Example:***
 ```
 import  { createContext } from 'react';  
@@ -125,6 +127,8 @@ const Header = ()=> {
     <p>{user}</p>  
 }  
 ```
+### 11- What are Pure Components in React? ###  
+
 
 
 
