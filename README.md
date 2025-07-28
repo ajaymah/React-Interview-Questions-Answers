@@ -147,7 +147,11 @@ Hooks are special function in React js **(v16.8+)** that let you use state and o
 > [!NOTE]
 > Rules  
  **Call Hooks at top lavel** - not inside loop, conditions, or nested function
-> 
+
+### what is the difference between a custom hook and a function ###  
+**JavaScript function** is a set of statements that perform a specific task. Functions are the basic building blocks of any JavaScript program, and they can be used in various ways, such as defining reusable code, organizing your code,  
+**React Hooks** are specifically designed to interact with the React component lifecycle and state management.
+
 
 
 
