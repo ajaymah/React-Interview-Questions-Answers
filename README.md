@@ -152,6 +152,16 @@ Hooks are special function in React js **(v16.8+)** that let you use state and o
 **JavaScript function** is a set of statements that perform a specific task. Functions are the basic building blocks of any JavaScript program, and they can be used in various ways, such as defining reusable code, organizing your code,  
 **React Hooks** are specifically designed to interact with the React component lifecycle and state management.
 
+### What React Query ###
+React Query of TanStack Query, is a powerful data-fetching and state management library for React applications. It simplifies the process of fetching, caching, synchronizing, and updating server state.  
+**Declarative Data Fetching:**  
+It utilizes hooks like **useQuery** for fetching data and **useMutation** for performing data modifications (e.g., creating, updating, deleting). This declarative approach leads to cleaner and more organized code.  
+**Error Handling and Loading States:**  
+It provides clear mechanisms for handling loading states, errors, and other query statuses, making it easier to build robust and user-friendly interfaces.  
+
+
+
+
 
 
 
