@@ -180,6 +180,7 @@ root.render(
 ```
 
 ```
+import {useQuery} from '@tanstack/react-query'
 function App(){
    const {data:postData, isloading, isError, error, status} = useQuery({
       queryKey:["post"],
