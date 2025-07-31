@@ -158,6 +158,36 @@ React Query of TanStack Query, is a powerful data-fetching and state management 
 It utilizes hooks like **useQuery** for fetching data and **useMutation** for performing data modifications (e.g., creating, updating, deleting). This declarative approach leads to cleaner and more organized code.  
 **Error Handling and Loading States:**  
 It provides clear mechanisms for handling loading states, errors, and other query statuses, making it easier to build robust and user-friendly interfaces.  
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+const queryClient = new QueryClient()
+root.render(
+  <React.StrictMode>
+<QueryClientProvider client={queryClient}>
+    <App />
+<QueryClientProvider/>
+  </React.StrictMode>
+);
+```
+
+```
+function App(){
+   const {data:postData, isloading, isError, error, status} = useQuery({
+      queryKey:["post"],
+	  queryfn: fetchPost
+   })
+   
+}
+```
 
 
 
