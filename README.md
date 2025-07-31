@@ -164,7 +164,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
+import {ReactQueryDevTools} from "@tanstack/react-query-devtool"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -174,6 +175,7 @@ root.render(
   <React.StrictMode>
 <QueryClientProvider client={queryClient}>
     <App />
+    <ReactQueryDevTools initialIsopen={false}/>
 <QueryClientProvider/>
   </React.StrictMode>
 );
@@ -188,6 +190,42 @@ function App(){
    })
    
 }
+```
+
+```
+post data
+import { useMutation } from 'react-query';
+const postData = async (newData) => {
+      const response = await fetch('/api/your-endpoint', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newData),
+      });
+      if (!response.ok) {
+        throw new Error('Failed to post data');
+      }
+      return response.json();
+    };
+
+const { mutate, isLoading, isError, isSuccess, error } = useMutation(postData, {
+      onSuccess: (data) => {
+        // Handle successful mutation, e.g., invalidate queries, show a success message
+        console.log('Data posted successfully:', data);
+      },
+      onError: (error) => {
+        // Handle error, e.g., show an error message
+        console.error('Error posting data:', error);
+      },
+    });
+
+
+const handleSubmit = (event) => {
+      event.preventDefault();
+      const dataToPost = { name: 'John Doe', email: 'john@example.com' }; // Example data
+      mutate(dataToPost);
+    }
 ```
 
 
