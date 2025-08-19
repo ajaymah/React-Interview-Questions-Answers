@@ -228,6 +228,13 @@ const handleSubmit = (event) => {
     }
 ```
 
+### 13- Principles of Accessibility ###
+Four Principles of Accessibility  
+1 **.Perceivable(Noticeable)** - Information and user interface components must be presentable to users in ways they can understand.  
+2 **Operable** - User interface components and navigation must be operable. (users must be able to operate the interface)  
+3 **Understandable** - Information and the operation of user interface must be understandable.
+4 **Robust** - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
+
 
 
 
