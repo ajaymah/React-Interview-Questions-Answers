@@ -245,6 +245,20 @@ Instead of directly updating the entire DOM when data changes, React first creat
 **State and Prop Changes & Reconciliation:**  
 **Efficient DOM Updates:**  
 
+### 14 -  how can improve react application performance ###
+**Optimizing Component Rendering:**  
+Memoization with React.memo   
+useCallback and useMemo Hooks:  
+Unique Keys in Lists:  
+Avoid Inline Function Definitions:  
+**Optimizing Resource Loading:**  
+React.lazy and Suspense  
+Image Optimization: - Implement lazy loading for images and optimize image sizes
+Virtualization for Long Lists: - Use libraries like react-window or react-virtualized to render only the visible items in long lists,
+
+
+### 15 - react-window or react-virtualized ###
+
 
 
 
