@@ -235,6 +235,16 @@ Four Principles of Accessibility
 3 **Understandable** - Information and the operation of user interface must be understandable.
 4 **Robust** - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
 
+### 13 - how react works in browser ###
+Instead of directly updating the entire DOM when data changes, React first creates a virtual representation of the DOM in memory. It then calculates the most efficient way to update the actual DOM, reducing the need for full page reloads and improving  
+
+**Here's a breakdown of how it works:**  
+**Initial Load:**  
+**Virtual DOM Creation**
+**Initial Render:**  
+**State and Prop Changes & Reconciliation:**  
+**Efficient DOM Updates:**  
+
 
 
 
