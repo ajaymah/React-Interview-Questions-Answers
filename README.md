@@ -260,6 +260,21 @@ Virtualization for Long Lists: - Use libraries like react-window or react-virtua
 ### 15 - react-window or react-virtualized ###
 
 
+### 15- what is lazy loading in react ###
+Lazy loading in React is a performance optimization technique   
+Lazy loading allows for code splitting and on-demand loading of specific parts of the application.   
+**Key concepts of lazy loading in React:**  
+**Code Splitting**: - The application's code is divided into smaller, independent chunks or bundles.  
+**Dynamic Imports:** -  React.lazy() function, in conjunction with dynamic import(), enables the asynchronous loading of components. Instead of traditional static imports at the top of a file,  
+**Suspense:** - The Suspense component from React is used to wrap lazy-loaded components. It provides a fallback UI (e.g., a loading spinner) that is displayed while the lazy-loaded component is being fetched and rendered.  
+**Benefits of lazy loading:** Reduced Initial Load Time,
+
+### How to sanitize JS and HTML in inputs ###
+Validate input (frontend)  -  Ensure that the data conforms to what you expect before submission  
+Sanitize input (backend)  -  Employ means on the backend to escape or remove unsafe characters before it reaches your application's storage layer  
+Escape output (backend)  -  As an additional safety measure, before outputting, be sure to escape anything coming from a 3rd party source  
+
+
 
 
 
