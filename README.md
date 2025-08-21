@@ -276,14 +276,14 @@ Escape output (backend)  -  As an additional safety measure, before outputting, 
 
 ### Reconciliation ###
 Reconciliation is a process in React that helps it update the UI efficiently. Whenever something changes in your app, like the data or state, React needs to update the web page to reflect those changes  
-**Reconciliation** - Reconciliation in React.js is the process React uses to efficiently update
-insteed of direct manipulations of the actual Document
-**How Reconciliation Works:**
+**Reconciliation** - Reconciliation in React.js is the process React uses to efficiently update  
+insteed of direct manipulations of the actual Document  
+**How Reconciliation Works:**  
 1- _Virtual DOM:_ - When a component's state or props change, React doesn't immediately update the real DOM. Instead, it creates a new "Virtual DOM" tree,  
 which is a lightweight, in-memory representation of the UI.  
 2- _Diffing Algorithm:_ - React then compares this new Virtual DOM tree with the previous Virtual DOM tree using a "diffing algorithm."  
-3- _Minimal DOM Updates:_ - React calculates the most efficient set of changes required to update the real DOM. It only modifies the specific parts of the DOM that have actually changed, rather than re-rendering the entire page.
-4- _Fiber Reconciler:_ - 
+3- _Minimal DOM Updates:_ - React calculates the most efficient set of changes required to update the real DOM. It only modifies the specific parts of the DOM that have   actually changed, rather than re-rendering the entire page.  
+4- _Fiber Reconciler:_ -   
 
 
 
