@@ -283,7 +283,47 @@ insteed of direct manipulations of the actual Document
 which is a lightweight, in-memory representation of the UI.  
 2- _Diffing Algorithm:_ - React then compares this new Virtual DOM tree with the previous Virtual DOM tree using a "diffing algorithm."  
 3- _Minimal DOM Updates:_ - React calculates the most efficient set of changes required to update the real DOM. It only modifies the specific parts of the DOM that have   actually changed, rather than re-rendering the entire page.  
-4- _Fiber Reconciler:_ -   
+4- _Fiber Reconciler:_ - 
+
+### React Component Recurson ###
+```
+const orgData = [{
+  name: "CEO",
+  children: [
+    {
+      name: "CTO",
+      children: [
+        {
+          name: "Dev Manager",
+          children: [{ name: "Developer 1" }, { name: "Developer 2" }],
+        },
+      ],
+    },
+    { name: "CFO"},
+    {
+      name: "COO",
+      children: [{ name: "Operations Manager" }],
+    },
+  ],
+}];
+//////////////////////////////////////
+const RecursiveList = ({ items }) => {
+  return (
+    <ul>
+      {items.map((item, index) => (
+        <li key={index}>
+          {item.name}
+          {item.children && item.children.length > 0 && (
+            <RecursiveList items={item.children} />
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+};
+///////////////////////////////
+<RecursiveList items={orgData} />
+```
 
 
 
