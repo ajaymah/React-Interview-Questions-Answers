@@ -324,7 +324,13 @@ const RecursiveList = ({ items }) => {
 ///////////////////////////////
 <RecursiveList items={orgData} />
 ```
+### react unused variable how can remove ###
+1  Manual Removal  
+2  Using ESLint
+3  Using IDE Features: VS Code - Extensions like "CleanDeadCode" 
 
+**Tools for Unused Dependencies:**
+**depcheck**: This tool helps identify unused dependencies in your package.json file, allowing you to remove them and keep your project dependencies lean.
 
 
 
