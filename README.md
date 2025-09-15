@@ -332,6 +332,21 @@ const RecursiveList = ({ items }) => {
 **Tools for Unused Dependencies:**
 **depcheck**: This tool helps identify unused dependencies in your package.json file, allowing you to remove them and keep your project dependencies lean.
 
+### React Latest version features with some examples. ###
+React 19 on focus, performance and serverclient intregration with React compiler for auto optimization  
+you won`t need to use useMemo hook, React compiler will memoize by itself   
+And no need to use frowardRef() hook  
+REact 19 Introduce Some new hooks like use() this for promise and async code  
+**useFromStatus** returns an object with the following properties:  
+Example: const {**pending, data, method, action**} = useFormStatus
+
+**useFormState** : useFormState  hooks designed to manage form state  
+this return an array with state and formaction  
+
+**useOptimistic** hooks allows you to display a temporary, "optimistic" state   
+in the UI immediately after a user action  
+const [optimisticState, addOptimistic] = useOptimistic(state, updateFn);  
+
 
 
 
