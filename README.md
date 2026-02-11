@@ -347,7 +347,7 @@ this return an array with state and formaction
 in the UI immediately after a user action  
 const [optimisticState, addOptimistic] = useOptimistic(state, updateFn);  
 
-### what is the diffrence - nps create-react-app and create by vite. ###
+## what is the diffrence - nps create-react-app and create by vite. ##
 ```
 **npx create-react-app**
 **npm create vite@latest (or npm create vite)**
@@ -390,7 +390,7 @@ module.exports = something;
 import something from "./file.js";  
 export default something;  
 
-**Why Vite is Fast Because of ES Modules?**
+**Why Vite is Fast Because of ES Modules?**  
 Vite uses native browser ES Modules.  
 Instead of bundling everything:  
 - Browser loads only needed modules  
