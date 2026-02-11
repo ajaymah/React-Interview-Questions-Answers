@@ -352,6 +352,50 @@ const [optimisticState, addOptimistic] = useOptimistic(state, updateFn);
 **npx create-react-app**
 **npm create vite@latest (or npm create vite)**
 ```
+**Create React App (CRA)** = Old, slower, heavy  
+**Vite** = Modern, faster, lightweight  
+
+**Create React App**  
+- Uses Webpack  
+- Bundles entire app before starting  
+- Slower startup  
+- Hidden config (Webpack inside)  
+- CRA installs many dependencies (heavy).  
+
+**Vite**  
+- Uses ES Modules + esbuild  
+- Starts instantly  
+- Only bundles when building for production  
+- Simple config file: vite.config.js  
+- Vite installs minimal dependencies (lightweight)
+
+**Why Vite is Faster?**  
+Uses native browser ES modules   
+Does not bundle everything during dev   
+Uses esbuild (written in Go, very fast)  
+**CRA:**  
+Uses Webpack  
+Bundles full app before running 
+
+## What is ES Module? ##  
+**ES Module (ESM)** is the official standard way to import and export code in JavaScript.  
+It was introduced in ES6 (2015).  
+It allows you to split code into multiple files and reuse them.  
+Without modules, all code stays in one big file  
+
+**common Js**   
+module.exports = something;  
+
+**ES module**  
+import something from "./file.js";  
+export default something;  
+
+**Why Vite is Fast Because of ES Modules?**
+Vite uses native browser ES Modules.  
+Instead of bundling everything:  
+- Browser loads only needed modules  
+- Faster development  
+
 
 
 
