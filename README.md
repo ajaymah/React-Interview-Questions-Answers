@@ -347,6 +347,10 @@ this return an array with state and formaction
 in the UI immediately after a user action  
 const [optimisticState, addOptimistic] = useOptimistic(state, updateFn);  
 
+### what is the diffrence - nps create-react-app and create by vite. ###
+```npx create-react-app
+npm create vite@latest (or npm create vite)```
+
 
 
 
