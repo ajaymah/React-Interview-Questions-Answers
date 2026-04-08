@@ -394,8 +394,31 @@ export default something;
 Vite uses native browser ES Modules.  
 Instead of bundling everything:  
 - Browser loads only needed modules  
-- Faster development  
+- Faster development
 
+### 25 - React 19 updates ###
+
+**React 19 is not just an update — it’s a shift to async + server-first architecture**
+Fully stable in React 19  
+
+**Benefits**  
+- Smaller bundle size  
+- Better SEO  
+- Faster load
+
+**Actions API**  
+A new way to handle: **Forms, API calls, Mutations**  
+```  
+"use server";
+export async function addTodo(formData) {
+  // server logic
+}
+```
+
+**New Hooks** (Very Important)  
+**useActionState**  
+**useOptimistic**  
+**useFormStatus**  
 
 
 
